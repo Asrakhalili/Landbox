@@ -1,0 +1,9 @@
+@import'-nav.css';
+@import'-hero-section.css';
+
+
+
+@font-face{
+font-family: 'Inter', sans-serif;
+src: url(/code/fonts/Inter/static/Inter-Bold.ttf);
+}

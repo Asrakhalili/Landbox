@@ -1,0 +1,45 @@
+.nav-bar{
+background-color: #dbf4ff;
+padding-top: 20px;
+padding-bottom: 15px;
+}
+.nav-grid{
+    max-width: 1400px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-choices{
+    width: 80%;
+}
+ .nav-choices a{
+    padding: 23px;
+    font-size: 17px;
+    font-weight: 650;
+ }
+
+ .button{
+    padding: 14px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 550;
+    transition:.3s ease-in-out;
+ }
+.button:hover{
+background-color: rgba(199, 160, 235, 0.911);
+}
+.box{
+    background-color: rgba(250, 249, 203, 0.863);
+    height: 350px;
+    width: 450px;
+border-radius: 10px;
+
+}
+
+.box a{
+display: block;
+padding: 10px;
+}
