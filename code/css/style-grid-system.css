@@ -56,7 +56,7 @@ li ol ul{
     margin-top: 0;
 }
 .mb-0{
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 figure{
     position: relative;
@@ -94,7 +94,6 @@ figure{
 }
 .ml-150{
     margin-left: 150px;
-
 }
 .mt-10{
     margin-top: 10px;
@@ -114,6 +113,26 @@ figure{
 .pt-50{
     padding-top: 50px;
 }
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.light-blue{
+background-color: #dbf4ff;
+}
+.light-purple{
+    background-color: #d4ccff;
+}
+.light-yellow{
+    background-color: #fdfbc4;
+}
+
+
+
+
 @media only screen and (max-width:576px){
     .xs-hidden{
         display: none;

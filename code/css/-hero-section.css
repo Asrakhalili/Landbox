@@ -3,16 +3,10 @@
         padding-top: 100px;
         padding-bottom: 20px;
 }
-/*.hero-grid{
-    display: flex;
-    grid-column-gap: 150px;
-    grid-row-gap: 150px;
-}*/
 .hero-title{
     color: #000;
     margin-top: 50px;
     margin-bottom: 10px;
-  /* font-family: Libertinusserif, sans-serif;*/
     font-size: 50px;
     font-weight: 600;
     line-height: 1.3em;
@@ -61,7 +55,7 @@
 }
 .hero-client-item img{
     width: 160px;
-    height: 160px;
+    height: 120px;
     margin-left: 10px;
     margin-right: 10px;
  
@@ -71,7 +65,7 @@
     margin-top: 0;
     margin-bottom: 10px;
     font-family: Libertinusserif, sans-serif;
-    font-size: 52px;
+    font-size:52px;
     font-weight: 600;
     line-height: 1.3em; 
 }
@@ -82,17 +76,16 @@
         justify-content: center ;
         align-items: center;
     }
-    .hero-client-item{
-        margin-left: 0;
-        margin-right: 0;
-    }
 }
-  
 @media screen and (max-width:600px) {
 
     .hero-cilent-grid{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .hero-client-item img{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
