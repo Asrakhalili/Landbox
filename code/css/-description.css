@@ -1,0 +1,42 @@
+.des-part{
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.des-title{
+    margin-bottom: 40px;
+}
+.des-item{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #dbf4ff;
+}
+.des-item-bottom img{
+    height: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.des-mark{
+    padding-left: 4px;
+    padding-right: 0px;
+    border-radius: 3px;
+    background-color: #fdfbc4;
+}
+.des-item-bottom{
+    display: flex;
+    align-items: center;
+    grid-row-gap: 15px;
+    grid-column-gap :20px;
+    margin-top: 70px;
+
+}
+.des-bottom-text h6{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3em;
+}

@@ -51,6 +51,9 @@ li ol ul{
 .p-0{
     padding: 0!important;
 }
+.pb-100{
+    padding-bottom: 100px;
+}
 
 .mt-0{
     margin-top: 0;
@@ -109,6 +112,10 @@ figure{
 }
 .ml-50{
     margin-left: 50px;
+}
+ptb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .flex{
     display: flex;

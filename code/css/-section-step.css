@@ -127,7 +127,8 @@ height: 600px;
 
     .split-section .split-img-wrapper{
 
-        display: none;
+        max-width: 100%;
+        display: inline-block;
     }
 
 }
