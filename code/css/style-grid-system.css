@@ -77,6 +77,9 @@ figure{
 .m-50{
     margin: 50px;
 }
+.m-20{
+    margin: 20px;
+}
 .mt-15{
     margin-top: 15px;
 }
@@ -129,9 +132,18 @@ background-color: #dbf4ff;
 .light-yellow{
     background-color: #fdfbc4;
 }
-
-
-
+.mb-100{
+    margin-bottom: 100px;
+}
+h2{
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Libertinusserif, sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
 
 @media only screen and (max-width:576px){
     .xs-hidden{

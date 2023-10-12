@@ -1,7 +1,8 @@
 @import'-nav.css';
 @import'-hero-section.css';
 @import'-section-step.css';
-
+@import'-section-bpottom.css';
+@import'-section-video.css';
 
 @font-face{
 font-family: 'Inter', sans-serif;
