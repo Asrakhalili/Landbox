@@ -6,6 +6,7 @@
 @import'-description.css';
 @import'-integration-section.css';
 @import'-sub-section.css';
+@import'-footer-section.css';
 @font-face{
 font-family: 'Inter', sans-serif;
 src: url(/code/fonts/Inter/static/Inter-Bold.ttf);
